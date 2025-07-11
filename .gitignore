@@ -1,0 +1,42 @@
+cat << 'EOF' > .gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Streamlit cache
+.streamlit/config.toml
+.streamlit/*.json
+.streamlit/*.py
+
+# FAISS index and vector database
+vector_store/*.faiss
+vector_store/*.pkl
+
+# Logs and debug
+*.log
+
+# API keys or secrets (if created)
+secrets.env
+.env
+
+
+# PyInstaller/Packaging stuff
+dist/
+build/
+*.spec
+EOF
