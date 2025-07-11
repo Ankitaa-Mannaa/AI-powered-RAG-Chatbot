@@ -4,3 +4,4 @@ faiss-cpu
 nltk
 torch
 accelerate
+dotenv

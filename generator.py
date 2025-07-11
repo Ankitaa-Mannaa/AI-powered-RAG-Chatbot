@@ -1,13 +1,18 @@
 import requests
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv()
 
 url = "https://openrouter.ai/api/v1/chat/completions"
-API_KEY = "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"
+API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 headers = {
     "Authorization": f"Bearer {API_KEY}",
     "Content-Type": "application/json",
-    "HTTP-Referer": "https://your-app.com",  # Optional
-    "X-Title": "My Chat App"                # Optional
+    "HTTP-Referer": "https://your-app.com",  
+    "X-Title": "My Chat App"                
 }
 
 def query(prompt):

@@ -30,10 +30,8 @@ vector_store/*.pkl
 # Logs and debug
 *.log
 
-# API keys or secrets (if created)
-secrets.env
+# API keys 
 .env
-
 
 # PyInstaller/Packaging stuff
 dist/
