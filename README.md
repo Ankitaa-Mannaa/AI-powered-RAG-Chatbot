@@ -18,11 +18,11 @@ A lightweight Retrieval-Augmented Generation (RAG) chatbot designed to answer qu
 
 Before running the chatbot, you need to preprocess and embed the document.
 
-#Inside retriever.py
+#Inside retriever.py, run -
 
-python -c "from retriever import build_faiss_index; 
+from retriever import build_faiss_index; 
 
-build_faiss_index()"
+build_faiss_index()
 
 This will:
 - Extract text from documents/AI Training Document.pdf
