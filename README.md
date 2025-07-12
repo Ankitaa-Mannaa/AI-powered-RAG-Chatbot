@@ -55,6 +55,6 @@ Response: Gives a crafted legal answer even though the input is gibberish – sh
 ## 🎥 Demo Video and Screenshots
 🔗 Watch Demo link - https://drive.google.com/file/d/1Sc3deK3HDIlqsYiLs368Twkq3yXXiC4r/view?usp=sharing
 
-![Chat UI](assets/01.png)
-![Sample Query](assets/04.png)
+![Chat UI](assets/01.jpg)
+![Sample Query](assets/04.jpg)
 
