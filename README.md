@@ -20,7 +20,9 @@ Before running the chatbot, you need to preprocess and embed the document.
 
 #Inside retriever.py
 
-python -c "from retriever import build_faiss_index; build_faiss_index()"
+python -c "from retriever import build_faiss_index; 
+
+build_faiss_index()"
 
 This will:
 - Extract text from documents/AI Training Document.pdf
