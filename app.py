@@ -1,6 +1,6 @@
 import streamlit as st
 from retriever import retrieve_top_k_chunks, get_document_stats
-from generator import query  # now using OpenRouter Mistral
+from generator import query  
 
 st.set_page_config(page_title="Legal Chatbot", layout="wide")
 st.title("📄 Chatbot for your Legal Queries")

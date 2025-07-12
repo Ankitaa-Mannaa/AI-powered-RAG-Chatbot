@@ -23,10 +23,6 @@ Thumbs.db
 .streamlit/*.json
 .streamlit/*.py
 
-# FAISS index and vector database
-vector_store/*.faiss
-vector_store/*.pkl
-
 # Logs and debug
 *.log
 
